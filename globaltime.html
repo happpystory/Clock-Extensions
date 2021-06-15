@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Time</title>
+     <link rel="stylesheet" href="globaltime.css" type="text/css">
+</head>
+
+
+
+<body>
+    
+    <div id="flag-wrapper">
+        <img id="us" class="flag" src="flags/us-flag.png">
+        <img id="br" class="flag" src="flags/br-flag.png">
+        <img id="bg" class="flag" src="flags/bg-flag.jpg">
+        <img id="jp" class="flag" src="flags/jp-flag.jpg">
+        <img id="aus" class="flag" src="flags/aus-flag.jpg">
+    </div>
+    <div id="dig-time" class="row"></div>
+    <div id="canvas-wrapper">
+        <img id="daynight">
+        <canvas id="canvas" width="200" height="200"></canvas>
+    </div>
+    <div id="timezone-name" class="row">
+        <div id="output"></div>
+        <div id="left-wrapper"><span id="left" class="arrow"></span></div>
+        <div id="right-wrapper"><span id="right" class="arrow"></span></div>
+    </div>
+
+
+
+
+
+ <!-- scripts -->
+ <script src="jquery-3.6.0.js"></script>
+ <script src="jquery-ui.min.js"></script>
+ <script src="jquery-ui.js"></script>
+ <script src="globaltime.js"></script>
+
+</body>
+</html>
